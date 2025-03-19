@@ -182,8 +182,8 @@ def process_point_cloud(input_file, output_dir, tile_size=10, overlap=0.5, save_
     return n_trees
 
 def main():
-    input_dir = 'data/'  # Replace with your input directory
-    output_dir = input_dir
+    input_dir = 'input'  # Replace with your input directory
+    output_dir = 'output'  # Replace with your output directory
     
     # Get all .laz files in the input directory
     laz_files = glob.glob(os.path.join(input_dir, '*.laz'))

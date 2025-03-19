@@ -25,6 +25,8 @@ The standard workflow consists of:
    - Cylinders are tilted based on the detected stem angle
 4. Saving each extracted tree as a separate LAZ file
 
+Specify the input and output directories in the main function arguments.
+
 ### Grid Pipeline for Large Point Cloud Processing (`grid_pipeline.py`)
 
 For memory-efficient processing of large point clouds:
@@ -32,3 +34,8 @@ For memory-efficient processing of large point clouds:
 1. Divides the point cloud into a rectangular grid
 2. Processes each grid section individually
 3. Combines the results
+
+Specify the input and output directories in the main function arguments.
+
+### Requirements
+See requirements.txt for a list of dependencies.
