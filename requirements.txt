@@ -1,0 +1,5 @@
+dendromatics==0.5.1
+laspy==2.5.4
+numpy==1.26.4
+scipy==1.14.0
+tqdm==4.67.0
